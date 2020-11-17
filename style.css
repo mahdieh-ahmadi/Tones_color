@@ -1,0 +1,30 @@
+header{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.inputs{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Tones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 580px;
+    margin: 20px auto;
+}
+
+.Tones *{
+    background-color: #852;
+    width: 70px;
+    height: 70px;
+    margin: 1px;
+}
